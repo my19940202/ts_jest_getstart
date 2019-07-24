@@ -14,13 +14,19 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
     "typescript": "3.3.3",
-    "jest": "^23.6.0"
+    "@types/jest": "^23.3.13",
+    "babel-loader": "8.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "ts-jest",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
