@@ -14,8 +14,8 @@ test("object assignment", () => {
 
 // not.toBe
 test('adding positive numbers is not zero', () => {
-    for (let a = 1; a < 10; a++) {
-        for (let b = 1; b < 10; b++) {
+    for (let a = 1; a < 3; a++) {
+        for (let b = 1; b < 3; b++) {
             console.log('run', a, b);
             expect(a + b).not.toBe(0);
         }

@@ -15,7 +15,13 @@
     "@types/react-dom": "16.8.2",
     "typescript": "3.3.3",
     "@types/jest": "^23.3.13",
-    "babel-loader": "8.0.4"
+    "babel-loader": "8.0.4",
+    "@types/react-test-renderer": "16.8.3",
+    "@types/enzyme": "^2.8.12",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "enzyme-to-json": "3.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
