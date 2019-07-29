@@ -26,7 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "react-scripts test",
+    "old_test": "node ./node_modules/.bin/jest --env=jsdom -c ./jest.config.json",
     "eject": "react-scripts eject"
   },
   "browserslist": [

@@ -1,0 +1,27 @@
+{
+    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setupTests.ts",
+    "setupFiles": [
+        "<rootDir>/config/polyfills.js"
+    ],
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json"
+    ],
+    "testMatch": [
+        "<rootDir>/__tests__/*.ts?(x)"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+        "\\.tsx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+        "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$"
+    ],
+    "globals": {
+        "__VERSION__": "0.17.30"
+    }
+}

@@ -1,27 +1,25 @@
 {
-  "include": [
-    "./src/*"
-  ],
   "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
     "lib": [
       "dom",
-      "es2015"
+      "dom.iterable",
+      "esnext"
     ],
-    "rootDirs": [
-      "./src"
-    ],
-    "jsx": "preserve",
-    "target": "es5",
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
+    "jsx": "preserve",
     "isolatedModules": true
-  }
+  },
+  "include": [
+    "src"
+  ]
 }
