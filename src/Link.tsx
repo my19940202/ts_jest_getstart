@@ -13,9 +13,11 @@ export default class Link extends React.Component<any, any> {
         super(props);
         this._onMouseEnter = this._onMouseEnter.bind(this);
         this._onMouseLeave = this._onMouseLeave.bind(this);
+        this._click = this._click.bind(this);
 
         this.state = {
             class: STATUS.NORMAL,
+            counter: 0
         };
       }
     
@@ -26,17 +28,28 @@ export default class Link extends React.Component<any, any> {
       _onMouseLeave() {
         this.setState({class: STATUS.NORMAL});
       }
+
+      _click() {
+        let tmp = this.state.counter;
+        this.setState({counter: tmp + 1});
+      }
     
       render() {
         return (
-          <a
-            className={this.state.class}
-            href={this.props.page || '#'}
-            onMouseEnter={this._onMouseEnter}
-            onMouseLeave={this._onMouseLeave}
-          >
-            {this.props.children}
-          </a>
+          <>
+            <a
+              className={this.state.class}
+              href={this.props.page || '#'}
+              onMouseEnter={this._onMouseEnter}
+              onMouseLeave={this._onMouseLeave}
+            >
+                {this.props.children}
+            </a>
+            <div>
+              <button id="btn" onClick={this._click}>click me</button>
+              counter: <span className="txt">{this.state.counter}</span>
+            </div>
+          </>
         );
       }
 }
