@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link's tests 冒烟测试 1`] = `
+<Fragment>
+  <a
+    className="normal"
+    href="http://www.facebook.com"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Facebook
+  </a>
+  <div>
+    <button
+      id="btn"
+      onClick={[Function]}
+    >
+      click me
+    </button>
+    counter: 
+    <span
+      className="txt"
+    >
+      0
+    </span>
+  </div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    name: 
+    <span
+      className="name"
+    />
+  </div>
+</Fragment>
+`;

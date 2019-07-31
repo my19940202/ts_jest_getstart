@@ -12,7 +12,7 @@
 - 如果直接用jest，在实际使用的时候，最好还是直接jest int,逐步生成jest.config.js
 
 > 参考资料
-- create-react-app官方的测试教程: https://www.html.cn/create-react-app/docs/running-tests/#%E6%B5%8B%E8%AF%95%E7%BB%84%E4%BB%B6
+- create-react-app的测试教程: https://www.html.cn/create-react-app/docs/running-tests/#%E6%B5%8B%E8%AF%95%E7%BB%84%E4%BB%B6
 - enzyme(Testing utility for React): https://airbnb.io/enzyme/
 - jest文档不懂就翻API: https://jestjs.io/docs/zh-Hans/api
 - https://basarat.gitbooks.io/typescript/content/docs/testing/jest.html
